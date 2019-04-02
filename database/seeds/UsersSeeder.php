@@ -17,7 +17,6 @@ class UsersSeeder extends Seeder
             'name' => 'John Doe',
             'email' => 'jd@example.com',
             'password' => Hash::make('password'),
-            'image_id' => 1
         ]);
     }
 }

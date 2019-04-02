@@ -13,7 +13,6 @@ class PostsSeeder extends Seeder
     public function run()
     {
         DB::table('posts')->insert([
-            'image_id' => 2,
             'title' => 'The Title',
             'body' => 'The Body'
         ]);
